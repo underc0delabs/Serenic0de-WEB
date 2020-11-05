@@ -2,14 +2,10 @@ package starter.steps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
-import io.cucumber.java.en.Then;
 import net.thucydides.core.annotations.Steps;
 import starter.navigation.NavigateTo;
 import starter.pages.ForoPage;
 import starter.pages.HomePage;
-
-import static org.assertj.core.api.Assertions.assertThat;
-import static starter.matchers.TextMatcher.textOf;
 
 public class foroHomeSteps {
 

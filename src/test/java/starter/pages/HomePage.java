@@ -7,9 +7,11 @@ import org.openqa.selenium.WebElement;
 public class HomePage {
 
     @FindBy(className = "btn")
-    private WebElement clickForoButton;
-    
-    public void clickForoButton(){(clickForoButton).click();}
+    private WebElement foroButton;
+
+    public void clickForoButton(){
+        foroButton.click();
+    }
 
 }
 

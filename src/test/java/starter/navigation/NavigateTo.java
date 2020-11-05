@@ -4,7 +4,7 @@ import net.thucydides.core.annotations.Step;
 
 public class NavigateTo {
 
-    Underc0dePage underc0depage;
+    PageBase underc0depage;
 
     @Step("Que estoy en la web de Underc0de")
     public void underc0dePage() {

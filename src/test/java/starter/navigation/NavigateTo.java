@@ -1,13 +1,14 @@
 package starter.navigation;
 
 import net.thucydides.core.annotations.Step;
+import starter.pages.PageBase;
 
 public class NavigateTo {
 
-    PageBase underc0depage;
+    PageBase pageBase;
 
     @Step("Que estoy en la web de Underc0de")
     public void underc0dePage() {
-        underc0depage.open();
+        pageBase.open();
     }
 }
